@@ -1,0 +1,45 @@
+
+npm init
+
+npm install dotenv --save
+
+npm install nodemon --save
+nodemon server.js
+
+npm run start
+or
+npm start
+
+
+npm install -g nodemon
+
+http://localhost:3000/add?a=3&b=2
+http://localhost:3000/subtract?a=3&b=2
+
+
+After calling res.end we can't call anything else that writes to the response or we will get an error.
+If we don't call res.end, the browser won't know that the request has been processed and will spin forever (or until it times out).
+
+
+Ternary operator
+
+(condition ? trueThingToDo : falseThingToDo)
+
+let x = true;
+let y;
+if (x == true) {
+  y = 6;
+}
+else {
+  y = 8;
+}
+
+let x = true;
+let y = (x ? 6 : 8);
+
+===
+== <- This uses coercion.
+
+
+Type node and it will start a console for you. You can use this to test statements.
+Type .exit to leave.
