@@ -1,0 +1,4 @@
+#calculator { margin-left: 25px; }
+#calculator input { width: 200px; margin-bottom: 10px; }
+#calculator button { margin-right: 10px; margin-top: 5px;}
+#calculator #result { margin-top: 15px; }

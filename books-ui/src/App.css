@@ -1,0 +1,13 @@
+#layout .nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+#layout .nav-link:hover {
+  color: lightgray;
+}
+
+#layout .nav-link.active {
+  color: white;
+  text-decoration: underline;
+}
